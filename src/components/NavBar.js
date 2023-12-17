@@ -3,11 +3,12 @@ import "./NavBar.css";
 import { InputText } from "primereact/inputtext";
 import { Menubar } from "primereact/menubar";
 import "primereact/resources/themes/lara-light-cyan/theme.css";
-import "primeicons/primeicons.css";
 import { Button } from "primereact/button";
 import { Badge } from "primereact/badge";
 import { Avatar } from "primereact/avatar";
+import 'primeicons/primeicons.css';
 import { TfiAnnouncement } from "react-icons/tfi";
+
 function NavBar(){
   const items = [
     {
