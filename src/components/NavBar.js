@@ -1,5 +1,6 @@
 import React from "react";
 import "./NavBar.css";
+import "primeicons/primeicons.css";
 import { InputText } from "primereact/inputtext";
 import { Menubar } from "primereact/menubar";
 import "primereact/resources/themes/lara-light-cyan/theme.css";
