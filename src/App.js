@@ -1,8 +1,11 @@
-import Latest_blogs from "./components/latest_blogs";
+import {onSnapshot, collection} from "firebase/firestore"
+import { useEffect, useState } from "react";
+import db from "../src/config/firebase.js"
+  
 function App() {
   return (
     <>
-    <Latest_blogs />
+    
     </>
   );
 }
