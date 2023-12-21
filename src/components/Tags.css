@@ -1,6 +1,21 @@
 @import url('https://fonts.googleapis.com/css?family=Inter:100,200,300,400,500,600,700,800,900&display=swap');
+.tags-container{
+  position:absolute;
+  top:500px;
+  right: 150px;
+}
 
-/* Base styles */
+ .tags-container {
+      font-family: "Inter", sans-serif;
+      padding: 20px;
+      background: #fff;
+      border: 1px solid #e1e4e6;
+      border-radius: 10px;
+      max-width: 400px;
+      margin: 10px auto;
+}
+
+  
 .tags-container {
   font-family: "Inter", sans-serif;
   padding: 20px;
@@ -38,7 +53,7 @@
   color: #14191e;
 }
 
-/* Responsive styles */
+
 @media (max-width: 768px) {
   .tags-container {
     right: 10px;

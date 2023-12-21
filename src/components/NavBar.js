@@ -31,15 +31,16 @@ function NavBar(){
     <div className="nav-bar-container">
       <div className="container">
         <div className="left-side">
-        <i class="bi bi-search fs-5 snipcss0-7-16-17">
-</i>
           <Button
             onClick={() => {
               window.location.reload();
             }}
             icon={<TfiAnnouncement size={25} />}
           ></Button>
-          <InputText placeholder="Search" type="text" className="w-full" />
+          <div className="search-input">
+            <i className="bi bi-search fs-5 snipcss0-7-16-17"></i>
+            <InputText placeholder="Search" type="text" className="w-full" />
+          </div>
         </div>
         <div className="right-side">
           <Menubar model={items} className="menu" />
@@ -64,7 +65,3 @@ function NavBar(){
   );
 }
 export default NavBar;
-
-
-
-
