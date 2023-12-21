@@ -1,26 +1,30 @@
 import React from 'react';
-import { Navbar, Nav, Container } from 'react-bootstrap';
+import { Navbar, Nav, Container, Row, Col } from 'react-bootstrap';
 
 function Footer2() {
  
   return (
     <div className="App">
-      <Navbar bg="white" expand="lg" color='white'>
-        <Container fluid>
-          <Nav className="mr-auto">
-            <Nav.Link  href="#about"><font>&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;About&nbsp; </font></Nav.Link>
-            <Nav.Link href="#support"><font>&nbsp; &nbsp; &nbsp;Support</font></Nav.Link>
-            <Nav.Link href="#docs"><font>&nbsp; &nbsp; &nbsp;Docs</font></Nav.Link>
-            <Nav.Link href="#privacy"><font>&nbsp; &nbsp; &nbsp;Privacy & Terms</font></Nav.Link>
-          </Nav>
-          <Navbar.Text className="ml-auto">
-         <font>  ©2023 Webestica All rights reserved.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</font>
-          </Navbar.Text>
-        </Container>
-      </Navbar>
-      <Container>
-        {/* Your main content goes here */}
-      </Container>
+       <Navbar bg="white" expand="lg">
+  
+  <Navbar.Toggle aria-controls="basic-navbar-nav" />
+  <Navbar.Collapse id="basic-navbar-nav">
+    <Nav className="mr-auto">
+      <Nav.Link href="#about">&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;About</Nav.Link>
+      <Nav.Link href="#support">Support</Nav.Link>
+      <Nav.Link href="#docs">Docs</Nav.Link>
+      <Nav.Link href="#privacy">Privacy & Terms</Nav.Link>
+    </Nav>
+  </Navbar.Collapse>
+  <footer className="text-center">
+  <Row>
+    <Col>©2023 Webestica All rights reserved.&nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</Col>
+  </Row>
+</footer>
+</Navbar>
+<Container>
+  {/* Your main content goes here */}
+</Container>
     </div>
   );
 }
