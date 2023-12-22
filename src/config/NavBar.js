@@ -42,7 +42,7 @@ function Navpar_bolg() {
               </Button>
            
               <Navbar.Brand href="#" >
-              <img src="https://social.webestica.com/assets/images/avatar/07.jpg"  width="35" height="35"></img>
+              <img src="https://social.webestica.com/assets/images/avatar/07.jpg"  width="35" height="35" style={{borderRadius: 5}}></img>
          
           </Navbar.Brand>
             
