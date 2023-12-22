@@ -1,9 +1,6 @@
 import React from 'react';
 import { Navbar, Container,  Button, Badge } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.css';
-
-
-
 function Navpar_bolg() {
   return (
     <div className="App">
