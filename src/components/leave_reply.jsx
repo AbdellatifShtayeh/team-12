@@ -1,6 +1,9 @@
 import { useState } from 'react';
 import '../styles/leave_reply.css';
 
+import Comments_section from './comments_section';
+
+
 export default function LeaveReply(props) {
   let [data, setData] = useState({
     name: '',
@@ -21,6 +24,10 @@ export default function LeaveReply(props) {
   return ( 
     <div className="reply_container">
       <div className="reply_box">
+         
+         <Comments_section />
+      
+      <hr className="my-4" />    
         <h1>Leave a reply</h1>
         <div className="reply_row">
             <div className="reply_item">
