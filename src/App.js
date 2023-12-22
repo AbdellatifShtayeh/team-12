@@ -5,6 +5,7 @@ import Blog_preview from '../src/components/blog_preview.js'
 import Pagination from "./components/pagination.js";
 import NavBar from "../src/config/NavBar.js"
 
+
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom/cjs/react-router-dom.min.js";
 
 //fitch data from db to page 1
@@ -35,6 +36,7 @@ function App() {
                 {/* starting of blogs */}
                 <Switch>
                   <Route exact path='/page-1'>
+
                     {documents.map(doc => (
 
                       <Blog_preview
