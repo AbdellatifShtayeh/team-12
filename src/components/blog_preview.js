@@ -1,4 +1,5 @@
 import '../styles/latest_blogs.css'
+import { Link } from 'react-router-dom'
 
 
 const blog_previwe = (props) => {
@@ -14,7 +15,7 @@ const blog_previwe = (props) => {
           <div className="col-8">
             {/* Blog caption */}
             <a href="#!" className="badge  bg-opacity-10  mb-2  font-weight-bold" style={{ backgroundColor: props.tagBg, color: props.tagColor }}>{props.tag}</a>
-            <h5><a href="#" className="btn-link stretched-link text-primary font-weight-bold ">{props.heading}</a></h5>
+            <h5><Link to="/expanded_blog" className="btn-link stretched-link text-primary font-weight-bold ">{props.heading}</Link></h5>
             <div className="d-none d-sm-inline-block">
               <p className="mb-1" style={{ color: '#86898c' }}>{props.description}</p>
               {/* BLog date */}
@@ -26,6 +27,10 @@ const blog_previwe = (props) => {
       {/* Blog item END */}
       <hr className="my-4" />
     </div>
+
+  );
+} 
+
 
   );
 } 
