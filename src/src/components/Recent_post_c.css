@@ -1,0 +1,110 @@
+
+.test{
+
+    display: flex;
+    flex-wrap: nowrap;
+
+    flex-direction: row;
+    justify-content: normal;
+align-items: normal;
+
+body {
+    font-family: Arial, sans-serif;
+}
+.post {
+   
+    margin-bottom: 17px;
+}
+.post-title {
+  
+    font-size: 13px;
+    font-weight: bold;
+}
+.timestamp {
+  
+    font-size: 14px;
+    color: grey;
+}
+.view-all {
+   
+    font-size: 16px;
+    color: grey;
+    display: inline-block;
+padding: 2px 2px;
+font-size: 16px;
+text-align: center;
+
+cursor: pointer;
+outline: none;
+color: rgb(0, 0, 0);
+background-color: transparent;
+border: none;
+    
+}
+
+.card{
+ 
+  width: 28rem;
+}
+.frame {
+   
+    display: flex;
+    flex-wrap: nowrap;
+flex-direction: row;
+
+justify-content: normal;
+align-items: normal;
+    height: 320px;
+width: 280px;
+padding: 30px;
+border: 1px solid #ccc;
+box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+background-color: #fff;
+border-radius: 5px;
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap');
+*{
+    font-family: 'Inter', sans-serif;
+
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
