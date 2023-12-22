@@ -32,7 +32,6 @@ const blog_previwe = (props) => {
 } 
 
 
-  );
-} 
+ 
 
 export default blog_previwe;
