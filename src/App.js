@@ -1,4 +1,3 @@
-
 import { collection, getDocs, addDoc } from "firebase/firestore";
 import db from "../src/config/firebase.js";
 import Blog_preview from '../src/components/blog_preview.js'
