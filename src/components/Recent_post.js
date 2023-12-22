@@ -1,5 +1,5 @@
 import React from 'react'
-import './Recent_post_c';
+import './Recent_post_c.css';
 function Tasck1() {
   return (
     <div>
