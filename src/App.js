@@ -3,6 +3,7 @@ import { collection, getDocs } from "firebase/firestore";
 import db from "../src/config/firebase.js";
 import Blog_preview from '../src/components/blog_preview.js'
 import Pagination from "./components/pagination.js";
+import NavBar from "../src/config/NavBar.js" 
 
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom/cjs/react-router-dom.min.js";
 
@@ -23,6 +24,7 @@ function App() {
   return (
     <>
       <Router>
+        <NavBar />
         {/* content alligning for the first page */}
         <div className='container'>
           <div className="col-lg-8">
