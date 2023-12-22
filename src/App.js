@@ -1,3 +1,4 @@
+
 import { collection, getDocs } from "firebase/firestore";
 import db from "../src/config/firebase.js";
 import Blog_preview from '../src/components/blog_preview.js'
@@ -14,6 +15,8 @@ const documents = querySnapshot.docs.map(doc => doc.data());
 const pquery = collection(db, "blog-preview content page 2");
 const pquerySnapshot = await getDocs(pquery);
 const page2content = pquerySnapshot.docs.map(doc => doc.data());
+
+  
 
 function App() {
 
@@ -53,6 +56,9 @@ function App() {
           </div>
         </div>
       </Router>
+
+    
+
     </>
   );
 }
