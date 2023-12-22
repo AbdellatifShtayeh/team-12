@@ -1,6 +1,6 @@
 import React from 'react'
 import './Recent_post_c.css';
-function Tasck1() {
+function Recent_post() {
   return (
     <div>
     <div class="test">
@@ -39,4 +39,4 @@ function Tasck1() {
   )
 }
 
-export default Tasck1
+export default Recent_post
