@@ -1,10 +1,7 @@
 import React from 'react';
 import { Navbar, Container,  Button, Badge } from 'react-bootstrap';
-
-
 import 'bootstrap/dist/css/bootstrap.css';
-import logo1 from './logo1.png'; 
-import profail1 from './profail1.jpg'
+
 
 
 function Navpar_bolg() {
@@ -13,7 +10,8 @@ function Navpar_bolg() {
       <Navbar lg="light" expand="lg">
         <Container>
           <Navbar.Brand href="#" onClick={() => window.location.reload()}>
-            <img src={logo1} alt="logo1" width="30" height="30" /> 
+          <img src="https://social.webestica.com/assets/images/logo.svg"width="35" height="35"></img>
+         
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
@@ -46,12 +44,11 @@ function Navpar_bolg() {
                 </Badge>
               </Button>
            
-                
-              <Button variant="outline-secondary" style={{borderColor: "white",}} >
-
-                
-              <img src={profail1}  width="30" height="30"/> 
-              </Button>
+              <Navbar.Brand href="#" >
+              <img src="https://social.webestica.com/assets/images/avatar/07.jpg"  width="35" height="35"></img>
+         
+          </Navbar.Brand>
+            
            
             </div>
           </Navbar.Collapse>
