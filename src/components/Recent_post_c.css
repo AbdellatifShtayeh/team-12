@@ -1,3 +1,5 @@
+
+
 .test{
 
     display: flex;
@@ -26,10 +28,10 @@ body {
 }
 .view-all {
    
-    font-size: 16px;
+  
     color: grey;
     display: inline-block;
-padding: 2px 2px;
+
 font-size: 16px;
 text-align: center;
 
@@ -41,20 +43,15 @@ border: none;
     
 }
 
-.card{
- 
-  width: 28rem;
-}
+
 .frame {
    
-    display: flex;
-    flex-wrap: nowrap;
-flex-direction: row;
+   
 
 justify-content: normal;
 align-items: normal;
-    height: 320px;
-width: 280px;
+    height: 415px;
+width: 300px;
 padding: 30px;
 border: 1px solid #ccc;
 box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
