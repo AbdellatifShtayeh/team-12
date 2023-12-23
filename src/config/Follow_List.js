@@ -1,4 +1,4 @@
-import './Tasck3.css'; 
+import './Follow_list.css'; 
 import React, { useEffect, useState } from 'react';
 import { getFirestore, collection, onSnapshot } from "firebase/firestore"; 
 import db from "./firebase"; 
