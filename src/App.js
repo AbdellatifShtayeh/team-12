@@ -13,6 +13,7 @@ import Footer from "./components/Footer.js";
 import Recent_post from "./components/Recent_post.js";
 import Tags from "./components/Tags.js";
 import { useState } from "react";
+import WhoToFollow from "./config/Follow_List.js";
 
 const query = collection(db, "blog-preview content");
 const querySnapshot = await getDocs(query);
@@ -70,6 +71,7 @@ function App() {
                             <div className="small_boxes">
                                 <Recent_post />
                                 <Tags />
+                                <WhoToFollow />
                             </div>
                         </Route>
                         <Route path="/expanded_blog">
